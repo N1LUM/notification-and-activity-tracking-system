@@ -1,6 +1,9 @@
-./certs/gateway/*
-./certs/event-worker/*
-./certs/notify-worker/*
+certs/gateway/*
+!certs/gateway/.gitkeep
+certs/event-worker/*
+!certs/event-worker/.gitkeep
+certs/notify-worker/*
+!certs/notify-worker/.gitkeep
 .env
 .env.deploy
 ./gateway/.env

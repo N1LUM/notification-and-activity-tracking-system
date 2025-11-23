@@ -5,10 +5,4 @@
 .env.deploy
 ./gateway/.env
 ./gateway/.env.deploy
-/certs/gateway/gateway.key
-/certs/gateway/gateway.crt
-/certs/event-worker/event-worker.key
-/certs/event-worker/event-worker.crt
-/certs/notify-worker/notify-worker.crt
-/certs/notify-worker/notify-worker.key
 /.idea

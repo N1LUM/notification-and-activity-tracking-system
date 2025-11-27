@@ -10,3 +10,4 @@ certs/notify-worker/*
 .env.deploy
 cmd/gateway/run.sh
 /.idea
+docker-compose.yml

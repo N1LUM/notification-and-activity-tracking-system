@@ -1,3 +1,5 @@
+certs/ca/*
+!certs/ca/.gitkeep
 certs/gateway/*
 !certs/gateway/.gitkeep
 certs/event-worker/*
@@ -6,6 +8,5 @@ certs/notify-worker/*
 !certs/notify-worker/.gitkeep
 .env
 .env.deploy
-./gateway/.env
-./gateway/.env.deploy
+cmd/gateway/run.sh
 /.idea

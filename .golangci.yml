@@ -1,0 +1,27 @@
+version: "2"
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - asciicheck
+    - bidichk
+    - copyloopvar
+    - cyclop
+    - depguard
+    - dupl
+  settings:
+    depguard:
+      rules:
+        main:
+          list-mode: lax
+          files:
+            - "cmd/gateway/*.go"
+          allow:
+            - "notify-activity-tracking-system/internal/gateway/app"
+run:
+  timeout: 5m
+  tests: true
